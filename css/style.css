@@ -1,0 +1,8 @@
+body{
+	background: #35a79c;
+}
+
+#features .container h2, #features .container h4, #features .container p, 
+#services .container h2, #services .container h4, #services .container p {
+	color: white;
+}
