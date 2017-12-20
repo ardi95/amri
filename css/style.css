@@ -3,6 +3,36 @@ body{
 }
 
 #features .container h2, #features .container h4, #features .container p, 
-#services .container h2, #services .container h4, #services .container p {
+#services .container h2, #services .container h4, #services .container p, #services .container i,
+#about .container h2, #about .container h3, #about .container h4, #about .container p, #about .container li, #about .container i,
+#meet-team .container h2, #meet-team .container h3, #meet-team .container h4, #meet-team .container p, #meet-team .container strong, #meet-team .container li,
+#pricing .container h2, #pricing .container h3, #pricing .container h4, #pricing .container p, #pricing .container strong, #pricing .container li,
+#blog .container h2, #blog .container h3, #blog .container h4, #blog .container p, #blog .container strong, #blog .container li
+{
 	color: white;
+}
+
+#meet-team #list-team h3{
+	color: black;
+}
+
+#meet-team #list-team p{
+	color: #64686d;
+}
+
+#meet-team #col-faqs a{
+	color: black;
+	transition: all 1s;
+}
+
+#meet-team #col-faqs a:hover{
+	color: blue;
+}
+
+#blog .entry-date{
+	color: white !important;
+}
+
+#blog .entry-title a{
+	color: white !important;
 }
